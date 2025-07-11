@@ -1,5 +1,4 @@
-# 16-Bit-Asynchronous-ALU
-ASIC Implementation of a 16-bit Asynchronous ALU for Ultrasound Application
+
 # 🧠 ASIC Implementation of a 16-Bit Asynchronous ALU for Ultrasound Application
 
 ## 📌 Project Overview
