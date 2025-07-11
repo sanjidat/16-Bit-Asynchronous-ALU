@@ -50,8 +50,7 @@ This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logi
 
 ## 🧾 Architecture Block Diagram
 
-> ![Block Diagram](images/architecture.png) *(Add this if you have one)*
-
+> ![Block Diagram](images/Block_Diagram.PNG) 
 ---
 
 ## ⚖️ Benchmark Comparison
