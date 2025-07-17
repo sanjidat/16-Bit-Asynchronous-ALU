@@ -85,7 +85,7 @@ genus> report_power
 
 4. Run Place and Route in Cadence Innovus
 
-🧠 Why Asynchronous?
+## 🧠 Why Asynchronous?
 
 🚫 No global clock = no clock skew
 
