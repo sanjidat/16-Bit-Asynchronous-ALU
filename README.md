@@ -99,3 +99,11 @@ genus> report_power
 
 This project is academic work. For reuse or citation, please contact the author.
 
+### References
+
+[2] O. Dave, D. S. Yadav, J. Kothari, and P. Jayakrishnan, "ASIC implementation of pipelined ALU," in *2013 International Conference on Green Computing, Communication and Conservation of Energy (ICGCE)*, pp. 191–194, 2013.
+
+[5] W.-G. Ho, K.-S. Chong, B.-H. Gwee, and J. S. Chang, "Low power sub-threshold asynchronous QDI static logic transistor-level implementation (SLTI) 32-bit ALU," in *2013 IEEE International Symposium on Circuits and Systems (ISCAS)*, pp. 353–356, IEEE, 2013.
+
+[6] S. Shukla and K. C. Ray, "Design and ASIC implementation of a reconfigurable fault-tolerant ALU for space applications," in *2019 IEEE International Symposium on Smart Electronic Systems (iSES) (Formerly iNiS)*, pp. 156–159, 2019.
+
