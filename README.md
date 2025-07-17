@@ -68,8 +68,8 @@ This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logi
 
 1. Clone the repository:
    <pre>
-   git clone https://github.com/Sanjidat/16-bit-Async-ALU.git
-   cd 16-bit-Async-ALU
+   git clone [https://github.com/sanjidat/ASIC-Implementation-of-16-Bit-Asynchronous-ALU.git]
+   cd ASIC-Implementation-of-16-Bit-Asynchronous-ALU
    </pre>
 2. Simulate RTL in Mentor Questasim or Xilinx Vivado
 
