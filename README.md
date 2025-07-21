@@ -3,7 +3,9 @@
 
 ## 📌 Project Overview
 
-This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logic Unit (ALU)** optimized for **ultrasound medical imaging CPUs**. The ALU performs a variety of arithmetic and logical operations using a modular datapath-control architecture. The design is verified via QuestaSim simulation with waveform output and structured testbenches. It supports basic arithmetic and logic operations with **ultra-low power consumption** and **minimal area usage**, making it ideal for **embedded healthtech systems**.
+This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logic Unit (ALU)** optimized for **ultrasound medical imaging CPUs** and other low-power embedded systems. Designed in **Verilog**, this ALU supports a range of arithmetic and logical operations using a modular **datapath-control architecture**.
+
+The design is verified through functional simulation using **Mentor QuestaSim** and synthesized using **Cadence Genus** and PnR done using **Cadence Innovus**, targeting a **45nm CMOS process** with ultra-low power and minimal area.
 
 ---
 ### ✅ Supported Operations
@@ -71,38 +73,65 @@ This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logi
 
 ---
 
-## 🚀 How to Run
+4. Run Place and Route in Cadence Innovus
 
+## 🚀 How to Run Simulation (Mentor QuestaSim or Vivado)
 1. Clone the repository:
    <pre>
-   git clone [https://github.com/sanjidat/ASIC-Implementation-of-16-Bit-Asynchronous-ALU.git]
+   git clone https://github.com/sanjidat/ASIC-Implementation-of-16-Bit-Asynchronous-ALU.git
    cd ASIC-Implementation-of-16-Bit-Asynchronous-ALU
    </pre>
-2. Simulate RTL in Mentor Questasim or Xilinx Vivado
 
-3. Synthesize using Cadence Genus:
+2. Open Mentor QuestaSim GUI (or Xilinx Vivado)
+
+3. Manually compile your Verilog files:
+
+   alu.v, cla_16bit.v, and other source files
+
+   alu_tb.v (testbench)
+
+4. Run the simulation in GUI or console
+
+5. Add signals to waveform window and run simulation
+
+6. Analyze waveforms for verification
+
+OR
+
+Run the testbench using QuestaSim:
+<pre>
+vsim -c -do simulation/run_sim.tcl
+</pre>
+
+🖼️ Waveform screenshots are provided in /simulation/images/.
+
+## 🏭 Synthesis (Cadence Genus)
 
 <pre>
-genus> read_hdl alu.v cla_16bit.v ...
+genus> read_hdl src/alu.v src/cla_16bit.v ...
 genus> elaborate
 genus> synthesize -to_mapped
 genus> report_area
 genus> report_power
 </pre>
 
-4. Run Place and Route in Cadence Innovus
+## 🧱 Physical Design (Cadence Innovus)
+Floorplanning, placement, clock tree synthesis, and routing done using Innovus
+
+Timing reports show positive slack, validating functional integrity
+
 
 ## 🧠 Why Asynchronous?
 
-🚫 No global clock = no clock skew
+- 🚫 No global clock = no clock skew
 
-🔌 Only switches when needed = low power
+- 🔌 Only switches when needed = low power
 
-🔄 Handshaking protocol = robust data flow
+- 🔄 Handshaking protocol = robust data flow
 
-🧪 Tolerant to process & voltage variations
+- 🧪 Tolerant to process & voltage variations
 
-📚 License
+- 📚 License
 
 This project is academic work. For reuse or citation, please contact the author.
 
