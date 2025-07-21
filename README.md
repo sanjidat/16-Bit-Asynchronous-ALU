@@ -1,5 +1,5 @@
 
-# 🧠 ASIC Implementation of a 16-Bit Asynchronous ALU for Ultrasound Application
+# 🧠 ASIC Implementation of a 16-Bit Asynchronous ALU 
 
 ## 📌 Project Overview
 
@@ -68,8 +68,8 @@ This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logi
 
 1. Clone the repository:
    <pre>
-   git clone https://github.com/Sanjidat/16-bit-Async-ALU.git
-   cd 16-bit-Async-ALU
+   git clone [https://github.com/sanjidat/ASIC-Implementation-of-16-Bit-Asynchronous-ALU.git]
+   cd ASIC-Implementation-of-16-Bit-Asynchronous-ALU
    </pre>
 2. Simulate RTL in Mentor Questasim or Xilinx Vivado
 
@@ -85,7 +85,7 @@ genus> report_power
 
 4. Run Place and Route in Cadence Innovus
 
-🧠 Why Asynchronous?
+## 🧠 Why Asynchronous?
 
 🚫 No global clock = no clock skew
 
@@ -98,4 +98,12 @@ genus> report_power
 📚 License
 
 This project is academic work. For reuse or citation, please contact the author.
+
+### References
+
+[2] O. Dave, D. S. Yadav, J. Kothari, and P. Jayakrishnan, "ASIC implementation of pipelined ALU," in *2013 International Conference on Green Computing, Communication and Conservation of Energy (ICGCE)*, pp. 191–194, 2013.
+
+[5] W.-G. Ho, K.-S. Chong, B.-H. Gwee, and J. S. Chang, "Low power sub-threshold asynchronous QDI static logic transistor-level implementation (SLTI) 32-bit ALU," in *2013 IEEE International Symposium on Circuits and Systems (ISCAS)*, pp. 353–356, IEEE, 2013.
+
+[6] S. Shukla and K. C. Ray, "Design and ASIC implementation of a reconfigurable fault-tolerant ALU for space applications," in *2019 IEEE International Symposium on Smart Electronic Systems (iSES) (Formerly iNiS)*, pp. 156–159, 2019.
 
