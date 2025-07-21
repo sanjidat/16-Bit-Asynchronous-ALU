@@ -3,9 +3,16 @@
 
 ## 📌 Project Overview
 
-This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logic Unit (ALU)** optimized for **ultrasound medical imaging CPUs**. It supports basic arithmetic and logic operations with **ultra-low power consumption** and **minimal area usage**, making it ideal for **embedded healthtech systems**.
+This project presents the **ASIC design of a 16-bit asynchronous Arithmetic Logic Unit (ALU)** optimized for **ultrasound medical imaging CPUs**. The ALU performs a variety of arithmetic and logical operations using a modular datapath-control architecture. The design is verified via QuestaSim simulation with waveform output and structured testbenches. It supports basic arithmetic and logic operations with **ultra-low power consumption** and **minimal area usage**, making it ideal for **embedded healthtech systems**.
 
 ---
+### ✅ Supported Operations
+- Addition
+- Multiplication
+- AND
+- OR
+- XOR
+- 
 
 ## 🛠️ Tools & Technologies
 
